@@ -1,0 +1,124 @@
+body {
+  font-size: 28px;
+  text-align: center;
+  color: #071418;
+  background-color: white;
+  font-family: sans-serif;
+  display: block;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.5em;
+}
+
+a {
+  color: #071418;
+  cursor: pointer;
+}
+
+img {
+  margin: auto;
+  height: auto;
+  width: 200px;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+main {
+  display: block;
+}
+
+.mission {
+  display: flex;
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+  height: 250px;
+  padding-top: 35px;
+}
+
+.vc {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+}
+
+.portfolio {
+  margin: auto;
+  padding-top: 50px;
+}
+
+.porttext {
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  display: block;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-container {
+  display: block;
+}
+
+.team {
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.people {
+  color: white;
+  padding: 10px;
+  flex-basis: 250px;
+}
+
+footer {
+  display: block;
+  padding-top: 20px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
